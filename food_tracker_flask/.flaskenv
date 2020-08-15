@@ -1,0 +1,2 @@
+FLASK_APP=food_tracker_flask
+FLASK_ENV=development
