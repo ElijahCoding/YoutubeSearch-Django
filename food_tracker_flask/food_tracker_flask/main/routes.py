@@ -14,6 +14,12 @@ def create_log():
 def add():
     return render_template('add.html')
 
+@main.route('/add', methods=['POST'])
+def add_post():
+    pass
+
+
+
 @main.route('/view')
 def view():
     return render_template('view.html')
